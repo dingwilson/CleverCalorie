@@ -1,0 +1,6 @@
+framework module Clarifai {
+  umbrella header "Clarifai-umbrella.h"
+
+  export *
+  module * { export * }
+}

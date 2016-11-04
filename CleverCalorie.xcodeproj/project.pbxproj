@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C811EF291DC61127001B75F6 /* LogDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C811EF281DC61127001B75F6 /* LogDetailTableViewController.swift */; };
+		C822CAC71DC5BF8C003C968E /* CalorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822CAC61DC5BF8C003C968E /* CalorieTableViewController.swift */; };
+		C87117911DC54A680092B73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87117901DC54A680092B73E /* AppDelegate.swift */; };
+		C87117961DC54A680092B73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87117941DC54A680092B73E /* Main.storyboard */; };
+		C87117981DC54A680092B73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87117971DC54A680092B73E /* Assets.xcassets */; };
+		C871179B1DC54A680092B73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87117991DC54A680092B73E /* LaunchScreen.storyboard */; };
+		C87117A31DC54D200092B73E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87117A21DC54D200092B73E /* CameraViewController.swift */; };
+		C87117A51DC5500B0092B73E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87117A41DC5500B0092B73E /* LoginViewController.swift */; };
+		C87117A71DC555B00092B73E /* Background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C87117A61DC555B00092B73E /* Background.mp4 */; };
+		C8D4B7AA1DC64DD500DBA7D7 /* AddChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4B7A91DC64DD500DBA7D7 /* AddChoiceViewController.swift */; };
+		C8FD78251DC5C35E00253141 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8FD78241DC5C35E00253141 /* GoogleService-Info.plist */; };
+		CA6CE8E604FCE8E99AEEB8BD /* Pods_CleverCalorie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A149FE0A86766D9ACFB869 /* Pods_CleverCalorie.framework */; };
+		EA18D70B1DC5F1520021F290 /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18D70A1DC5F1520021F290 /* LogTableViewController.swift */; };
+		EA18D70D1DC5F8C70021F290 /* FoodStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18D70C1DC5F8C70021F290 /* FoodStorageService.swift */; };
+		EA18D70F1DC5F8F30021F290 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18D70E1DC5F8F30021F290 /* FoodItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2243C16428CF06419C4E6316 /* Pods-CleverCalorie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverCalorie.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleverCalorie/Pods-CleverCalorie.release.xcconfig"; sourceTree = "<group>"; };
+		60188F66818515402DB0F17F /* Pods-CleverCalorie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleverCalorie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleverCalorie/Pods-CleverCalorie.debug.xcconfig"; sourceTree = "<group>"; };
+		C811EF281DC61127001B75F6 /* LogDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailTableViewController.swift; sourceTree = "<group>"; };
+		C822CAC61DC5BF8C003C968E /* CalorieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalorieTableViewController.swift; sourceTree = "<group>"; };
+		C871178D1DC54A680092B73E /* CleverCalorie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleverCalorie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87117901DC54A680092B73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87117951DC54A680092B73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87117971DC54A680092B73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C871179A1DC54A680092B73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C871179C1DC54A680092B73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87117A21DC54D200092B73E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C87117A41DC5500B0092B73E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C87117A61DC555B00092B73E /* Background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.mp4; sourceTree = "<group>"; };
+		C8D4B7A91DC64DD500DBA7D7 /* AddChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChoiceViewController.swift; sourceTree = "<group>"; };
+		C8FD78241DC5C35E00253141 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2A149FE0A86766D9ACFB869 /* Pods_CleverCalorie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleverCalorie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18D70A1DC5F1520021F290 /* LogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		EA18D70C1DC5F8C70021F290 /* FoodStorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodStorageService.swift; sourceTree = "<group>"; };
+		EA18D70E1DC5F8F30021F290 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C871178A1DC54A680092B73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6CE8E604FCE8E99AEEB8BD /* Pods_CleverCalorie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350DD1D65C351A843D93BFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A149FE0A86766D9ACFB869 /* Pods_CleverCalorie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E5CF3424890D8FB43B6429F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60188F66818515402DB0F17F /* Pods-CleverCalorie.debug.xcconfig */,
+				2243C16428CF06419C4E6316 /* Pods-CleverCalorie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C87117841DC54A670092B73E = {
+			isa = PBXGroup;
+			children = (
+				C871178F1DC54A680092B73E /* CleverCalorie */,
+				C871178E1DC54A680092B73E /* Products */,
+				7E5CF3424890D8FB43B6429F /* Pods */,
+				350DD1D65C351A843D93BFF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C871178E1DC54A680092B73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C871178D1DC54A680092B73E /* CleverCalorie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C871178F1DC54A680092B73E /* CleverCalorie */ = {
+			isa = PBXGroup;
+			children = (
+				C87117901DC54A680092B73E /* AppDelegate.swift */,
+				C87117A41DC5500B0092B73E /* LoginViewController.swift */,
+				C87117A21DC54D200092B73E /* CameraViewController.swift */,
+				C822CAC61DC5BF8C003C968E /* CalorieTableViewController.swift */,
+				C87117941DC54A680092B73E /* Main.storyboard */,
+				C8D4B7A91DC64DD500DBA7D7 /* AddChoiceViewController.swift */,
+				EA18D70A1DC5F1520021F290 /* LogTableViewController.swift */,
+				C811EF281DC61127001B75F6 /* LogDetailTableViewController.swift */,
+				EA18D70C1DC5F8C70021F290 /* FoodStorageService.swift */,
+				EA18D70E1DC5F8F30021F290 /* FoodItem.swift */,
+				C87117971DC54A680092B73E /* Assets.xcassets */,
+				C87117991DC54A680092B73E /* LaunchScreen.storyboard */,
+				C871179C1DC54A680092B73E /* Info.plist */,
+				C8FD78241DC5C35E00253141 /* GoogleService-Info.plist */,
+				C87117A61DC555B00092B73E /* Background.mp4 */,
+			);
+			path = CleverCalorie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C871178C1DC54A680092B73E /* CleverCalorie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C871179F1DC54A680092B73E /* Build configuration list for PBXNativeTarget "CleverCalorie" */;
+			buildPhases = (
+				FAEFAD1345BDB64CFDB55651 /* [CP] Check Pods Manifest.lock */,
+				C87117891DC54A680092B73E /* Sources */,
+				C871178A1DC54A680092B73E /* Frameworks */,
+				C871178B1DC54A680092B73E /* Resources */,
+				9DE4F658D79C19D210563E89 /* [CP] Embed Pods Frameworks */,
+				AA074F6480E4D5D3283B8033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleverCalorie;
+			productName = CleverCalorie;
+			productReference = C871178D1DC54A680092B73E /* CleverCalorie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87117851DC54A670092B73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wilson Ding";
+				TargetAttributes = {
+					C871178C1DC54A680092B73E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 585SNYAD83;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C87117881DC54A670092B73E /* Build configuration list for PBXProject "CleverCalorie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87117841DC54A670092B73E;
+			productRefGroup = C871178E1DC54A680092B73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C871178C1DC54A680092B73E /* CleverCalorie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C871178B1DC54A680092B73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C871179B1DC54A680092B73E /* LaunchScreen.storyboard in Resources */,
+				C87117A71DC555B00092B73E /* Background.mp4 in Resources */,
+				C8FD78251DC5C35E00253141 /* GoogleService-Info.plist in Resources */,
+				C87117981DC54A680092B73E /* Assets.xcassets in Resources */,
+				C87117961DC54A680092B73E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DE4F658D79C19D210563E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleverCalorie/Pods-CleverCalorie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA074F6480E4D5D3283B8033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleverCalorie/Pods-CleverCalorie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEFAD1345BDB64CFDB55651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87117891DC54A680092B73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA18D70F1DC5F8F30021F290 /* FoodItem.swift in Sources */,
+				C87117A51DC5500B0092B73E /* LoginViewController.swift in Sources */,
+				C87117911DC54A680092B73E /* AppDelegate.swift in Sources */,
+				EA18D70B1DC5F1520021F290 /* LogTableViewController.swift in Sources */,
+				EA18D70D1DC5F8C70021F290 /* FoodStorageService.swift in Sources */,
+				C811EF291DC61127001B75F6 /* LogDetailTableViewController.swift in Sources */,
+				C822CAC71DC5BF8C003C968E /* CalorieTableViewController.swift in Sources */,
+				C8D4B7AA1DC64DD500DBA7D7 /* AddChoiceViewController.swift in Sources */,
+				C87117A31DC54D200092B73E /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C87117941DC54A680092B73E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87117951DC54A680092B73E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87117991DC54A680092B73E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C871179A1DC54A680092B73E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C871179D1DC54A680092B73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C871179E1DC54A680092B73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87117A01DC54A680092B73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60188F66818515402DB0F17F /* Pods-CleverCalorie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 585SNYAD83;
+				INFOPLIST_FILE = CleverCalorie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.CleverCalorie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C87117A11DC54A680092B73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2243C16428CF06419C4E6316 /* Pods-CleverCalorie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 585SNYAD83;
+				INFOPLIST_FILE = CleverCalorie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.CleverCalorie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87117881DC54A670092B73E /* Build configuration list for PBXProject "CleverCalorie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C871179D1DC54A680092B73E /* Debug */,
+				C871179E1DC54A680092B73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C871179F1DC54A680092B73E /* Build configuration list for PBXNativeTarget "CleverCalorie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87117A01DC54A680092B73E /* Debug */,
+				C87117A11DC54A680092B73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87117851DC54A670092B73E /* Project object */;
+}
