@@ -8,7 +8,7 @@ CleverCalorie is a health app that utilizes Clarifai Object Recognition (Food) t
 
 ## Installation
 
-To install and run ProxyChat on your own iOS device, simply clone the repository. Run 'pod install' to install the various cocoapods. Then, get an API Key from Clarifai, and add it to CameraViewController.swift. Finally, open the project via XCode and build/run it on your own iDevice.
+To install and run CleverCalorie on your own iOS device, simply clone the repository. Run 'pod install' to install the various cocoapods. Then, get an API Key from Clarifai, and add it to CameraViewController.swift. Finally, open the project via XCode and build/run it on your own iDevice.
 
 ## Libraries Used
 
@@ -20,11 +20,11 @@ To install and run ProxyChat on your own iOS device, simply clone the repository
 
 ## Contributors
 
-ProxyChat was originally created by Wilson Ding, Kevin Nguyen, Bobby Thakkar, and Michelle Fang.
+CleverCalorie was originally created by Wilson Ding, Kevin Nguyen, Bobby Thakkar, and Michelle Fang.
 
 ## License
 
-`ProxyChat` is released under an [MIT License][mitLink]. See `LICENSE` for details.
+`CleverCalorie` is released under an [MIT License][mitLink]. See `LICENSE` for details.
 
 **Copyright &copy; 2016-present Wilson Ding.**
 
