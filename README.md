@@ -10,6 +10,8 @@ CleverCalorie is a health app that utilizes Clarifai Object Recognition (Food) t
 
 To install and run CleverCalorie on your own iOS device, simply clone the repository. Run 'pod install' to install the various cocoapods. Then, get an API Key from Clarifai, and add it to CameraViewController.swift. Finally, open the project via XCode and build/run it on your own iDevice.
 
+The backend requires an API key from Nutritionix. Insert the key into `main.py`, and run.
+
 ## Libraries Used
 
 - Clarifai iOS SDK
@@ -17,6 +19,7 @@ To install and run CleverCalorie on your own iOS device, simply clone the reposi
 - Firebase
 - Alamofire
 - SwiftyJSON
+- Nutritionix API
 
 ## Contributors
 
